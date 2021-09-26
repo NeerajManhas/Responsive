@@ -1,0 +1,22 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 100%;
+	background-color: blue;
+	display: inline-block;
+}
+.child{
+       height: 300px;
+       width: 19.7%;
+       background-color: green;
+       display: inline-block;
+}
+
+
+@media (max-width: 420px){
+	.child{
+		width: 100%;
+	}
+}
